@@ -1,0 +1,32 @@
+form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  width: 40em;
+  height: 29em;
+  background: #340438;
+  padding: 30px;
+  border-radius: 21px;
+}
+
+label {
+  color: white;
+}
+h2 {
+  color: white;
+}
+
+button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: coral;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+div {
+  color: white;
+}

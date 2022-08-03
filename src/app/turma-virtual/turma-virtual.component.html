@@ -1,0 +1,29 @@
+<div class="tabela">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Curso</th>
+        <th scope="col">Matrícula</th>
+        <th scope="col">Notas</th>
+        <th scope="col">Média</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let alu of alunos">
+        <td>{{ alu.nome }}</td>
+        <td>{{ alu.curso }}</td>
+        <td>{{ alu.matricula }}</td>
+        <td>{{ alu.notas }}</td>
+        <td>
+          {{
+            (
+              (alu.notas[0] + alu.notas[1] + alu.notas[2] + alu.notas[3]) /
+              4
+            ).toFixed(1)
+          }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,21 @@
+h3 {
+  height: 1000px;
+  color: #340438;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+img {
+  position: absolute;
+  top: 220px;
+}
+
+
+nav {
+  color: #340438;
+  margin-left: 100px;
+  margin-right: 500px;
+}

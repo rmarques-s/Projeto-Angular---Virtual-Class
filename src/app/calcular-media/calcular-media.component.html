@@ -1,0 +1,35 @@
+<form>
+  <h2>
+    <img
+      src="https://images.vexels.com/media/users/3/254864/isolated/preview/0d66d80f601ab3bf21b9d65caf289c96-school-classroomicons-young-sweet-vinylcolor-cr-11.png"
+      width="45px"
+    />
+    Calcular média:
+  </h2>
+  <label class="form-label">Nota 1:</label>
+  <br />
+  <input name="n1" [(ngModel)]="n1" type="text" #not1 />
+  <br />
+  <label class="form-label">Nota 2:</label>
+  <br />
+  <input name="n2" [(ngModel)]="n2" type="text" #not2 />
+
+  <br />
+  <label class="form-label">Nota 3:</label>
+  <br />
+  <input name="n3" [(ngModel)]="n3" type="text" #not3 />
+
+  <br />
+
+  <label class="form-label">Nota 4:</label>
+  <br />
+  <input name="n4" [(ngModel)]="n4" type="text" #not4 />
+
+  <br /><br />
+
+  <div>
+    <p id="resultado">A média final é: {{ media }}</p>
+  </div>
+
+  <button (click)="calcularmedia()">Calcular</button>
+</form>
