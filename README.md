@@ -1,4 +1,9 @@
-# angular-ivy-puwbgt
+# VIRTUAL CLASS
 
 Projeto criado para encerrar a disciplina Programação para Internet no curso técnico em informática do IFRN campus Parnamirim.
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-puwbgt)
+
+📎 [Acesse em](https://rmarques-s.github.io/Projeto-Angular---Virtual-Class/)
+
+![preview](./src/assets/image.png)
+
+
